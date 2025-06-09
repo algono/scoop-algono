@@ -5,5 +5,9 @@
     "license": "MIT OR Apache-2.0",
     "url": "https://github.com/algono/upv-cli/releases/download/v0.3.0/upv.exe",
     "hash": "sha256:0f58faf576c441586a60133e3ba086472532976a6677789b78b8072cb2a22483",
-    "bin": "upv.exe"
+    "bin": "upv.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/algono/upv-cli/releases/download/v$version/upv.exe"
+    }
 }
