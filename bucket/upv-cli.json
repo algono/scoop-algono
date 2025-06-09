@@ -3,6 +3,7 @@
     "description": "A CLI tool for managing VPN and network shares from UPV (Universitat Politècnica de València) on Windows.",
     "homepage": "https://github.com/algono/upv-cli",
     "license": "MIT OR Apache-2.0",
-    "url": "https://github.com/algono/upv-cli/releases/latest/download/upv.exe",
+    "url": "https://github.com/algono/upv-cli/releases/download/v0.3.0/upv.exe",
+    "hash": "sha256:0f58faf576c441586a60133e3ba086472532976a6677789b78b8072cb2a22483",
     "bin": "upv.exe"
 }
