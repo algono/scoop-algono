@@ -8,6 +8,9 @@
     "bin": "upv.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/algono/upv-cli/releases/download/v$version/upv.exe"
+        "url": "https://github.com/algono/upv-cli/releases/download/v$version/upv.exe",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }
